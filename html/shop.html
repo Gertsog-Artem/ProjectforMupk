@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Cold</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="men--ice__header">
+                <menu class="ice__header">
+                    <div class="btn--ice__header">
+                        <a href="../index.html"><button type="button">Главная</button></a>
+                        <a href="../html/shop.html"><button type="button">Новинки</button></a>
+                        <button type="button" onclick="window['some-modal'].showModal()"
+                            aria-controls="some-modal">Своё мороженое</button>
+                    </div>
+                    <div class="logo--ice__header">
+                        <a href="../index.html"><h1>Sweet <img src="../img/waffle.png" width="75px" height="75px"> Cold</h1></a>
+                    </div>
+                    <div class="btn--ice__header">
+                       <button type="button" onclick="window['some-modal'].showModal()"
+                            aria-controls="some-modal">Доставка</button>
+                        <button type="button" onclick="window['some-modal'].showModal()"
+                            aria-controls="some-modal">Поддержка</button>
+                        <a href="../html/account.html"><button type="button">Войти</button></a>
+                    </div>
+                </menu>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="sell--header">
+            <h1>Список товара</h1>
+            <div class="sell-ice">
+                <div class="sell-ice_mini">
+                    <img src="../img/vanil.png" height="250px" width="250px" class="sell-ice_mini-img">
+                    <h2>Ванильное мороженое</h2>
+                    <p>"Не повторимая классика"</p>
+                    <p> Вес - 70 грамм </p>
+                    <p>Стоимость - 65 рублей</p>
+                    <button type="button">Заказать</button>
+                </div>
+                <div class="sell-ice_mini">
+                    <img src="../img/fistashka.png" height="250px" width="250px" class="sell-ice_mini-img">
+                    <h2>Фисташковое мороженое</h2>
+                    <p>"На любителя"</p>
+                    <p> Вес - 75 грамм </p>
+                    <p>Стоимость - 70 рублей</p>
+                    <button type="button">Заказать</button>
+                </div>
+            </div>
+            <div class="sell-ice">
+                <div class="sell-ice_mini">
+                    <img src="../img/klubnika.png" height="250px" width="250px" class="sell-ice_mini-img">
+                    <h2>Клубничное мороженое</h2>
+                    <p>"С кусочками клубники"</p>
+                    <p> Вес - 80 грамм </p>
+                    <p>Стоимость - 80 рублей</p>
+                    <button type="button">Заказать</button>
+                </div>
+                <div class="sell-ice_mini">
+                    <img src="../img/banana.png" height="250px" width="250px" class="sell-ice_mini-img">
+                    <h2>Бананавое мороженое</h2>
+                    <p>"С кусочками банана"</p>
+                    <p> Вес - 80 грамм </p>
+                    <p>Стоимость - 75 рублей</p>
+                    <button type="button">Заказать</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <dialog id="some-modal">Извините на данный момент сайт является Demo-версией и не все может работать<br>
+        Еще раз извиняемся за предоставленные нами неудобства.
+        <form method="some-modal">
+            <button>
+                Ясно-понятно
+            </button>
+        </form>
+    </dialog>
+    <footer>
+        Все права защищены Ⓒ
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,322 @@
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+body {
+    background-image: url(../img/waflentexture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    -webkit-text-stroke: black 1px;
+    color: orange;
+    font-size: 30px;
+    font-family: "Racing Sans One", sans-serif;
+    text-align: center;
+}
+
+button {
+    background-color: orange;
+    border: 2px dotted black;
+    padding: 10px 5px 10px 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 0 21px #444;
+}
+
+button:hover {
+    background: linear-gradient(orange, yellow);
+    border: 5px double black;
+}
+
+
+.btn--ice__header button {
+    margin-top: 50px;
+
+}
+
+.btn--ice__header {
+    margin-right: 15px;
+}
+
+.orders h2 {
+    margin-bottom: 50px;
+    margin-top: 100px
+}
+
+.ice__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400;
+    background-color: #F2DDC6;
+    border-radius: 8px;
+}
+
+.logo--ice__header a{
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 570;
+    font-size: 40px;
+    -webkit-text-stroke: black 3px;
+    color: orange;
+    text-shadow: 0 0 21px #444;
+}
+
+.orders {
+    font-size: 20px;
+    font-family: "Racing Sans One", sans-serif;
+    border: 3px solid;
+    border-radius: 20%;
+    text-align: center;
+    margin: 20px 0px 20px 20px;
+    outline: 3px solid;
+    outline-offset: 5px;
+    box-shadow: 0 0 21px #444;
+}
+
+.ice--img {
+    border: 4px solid white;
+    border-radius: 100%;
+    box-shadow: 0 0 21px #444;
+    margin: 15px 15px 51px 0px;
+}
+
+.orders--header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eecead;
+    border-radius: 8px;
+}
+
+.orders-text {
+    max-width: 450px;
+    margin: 0px 25px 0px 25px;
+    font-weight: 550;
+
+}
+
+.about {
+    font-size: 20px;
+    font-family: "Racing Sans One", sans-serif;
+    border: 3px solid;
+    border-radius: 20%;
+    text-align: center;
+    align-items: center;
+    margin: 20px 20px 20px 0px;
+    outline: 3px solid;
+    outline-offset: 5px;
+    box-shadow: 0 0 21px #444;
+}
+
+.about--header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eecead;
+    border-radius: 8px;
+}
+
+.about-text {
+    max-width: 450px;
+    margin: 0px 25px 0px 25px;
+    font-weight: 550;
+
+}
+
+.about--header-img {
+    border: 4px solid white;
+    border-radius: 100%;
+    box-shadow: 0 0 21px #444;
+    margin: 15px 0px 15px 15px;
+}
+
+.about button {
+    margin-top: 50px;
+}
+
+.about h2 {
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.statistic {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ministatistic {
+    font-size: 20px;
+    font-family: "Racing Sans One", sans-serif;
+    border: 3px solid black;
+    border-radius: 20%;
+    text-align: center;
+    max-width: 250px;
+    max-height: 250px;
+    padding: 40px;
+    outline: 2px solid black;
+    outline-offset: 5px;
+    box-shadow: 0 0 21px #444;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: whitesmoke;
+}
+
+
+.sharedstatistic h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Racing Sans One", sans-serif;
+    text-shadow: 0 0 21px #444;
+}
+
+.sharedstatistic {
+    background-color: #d3af8c;
+    border-radius: 8px;
+}
+
+.social {
+    justify-content: center;
+    display: flex;
+}
+
+.social a {
+    padding: 10px 30px 10px 30px;
+}
+
+.social--header {
+    background-color: #b18c66;
+    border-radius: 8px;
+}
+
+.social--header h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Racing Sans One", sans-serif;
+}
+
+footer {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Racing Sans One", sans-serif;
+    background-color: #865f39;
+    color: white;
+    border-radius: 8px;
+}
+
+.login {
+    text-align: left;
+    padding: 20px;
+    display: block;
+
+}
+
+.login label {
+    font-family: "Racing Sans One", sans-serif;
+    font-size: 30px;
+    -webkit-text-stroke: black 1px;
+    color: orange;
+}
+
+.login input {
+    font-family: "Racing Sans One", sans-serif;
+    font-size: 15px;
+    height: 30px;
+    width: 520px;
+    margin-left: 30px;
+}
+
+.login--header legend {
+    font-family: "Racing Sans One", sans-serif;
+    font-size: 55px;
+    -webkit-text-stroke: black 1px;
+    color: orange;
+
+}
+
+.login input:invalid {
+    border: 2px solid red;
+}
+
+.login input:valid {
+    border: 2px solid black
+}
+
+.login--header {
+    background-color: #F2DDC6;
+    border-radius: 8px;
+}
+
+.sell-ice_mini-img {
+    border: 4px solid white;
+    border-radius: 100%;
+    box-shadow: 0 0 21px #444;
+    margin-top: -50px;
+    transition: 0.3s ease-in-out
+}
+
+.sell-ice_mini-img:hover {
+    transform: scale(1.5);
+    transition: 0.3s ease-in-out
+}
+
+.sell-ice_mini {
+    border: 2px solid black;
+    border-radius: 00% 00% 20% 20%;
+    background-color: #d3af8c;
+    font-family: "Racing Sans One", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0px 100px 50px 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+}
+
+.sell-ice_mini p {
+    font-size: 20px;
+    font-family: "Racing Sans One", sans-serif;
+
+}
+
+.sell-ice_mini h2 {
+    -webkit-text-stroke: black 1px;
+    color: orange;
+    font-size: 30px;
+    font-family: "Racing Sans One", sans-serif;
+    text-align: center;
+
+}
+
+.sell-ice_mini button {
+    margin-bottom: 25px;
+}
+
+.sell-ice {
+    display: flex;
+    justify-content: center;
+}
+
+.sell--header h1 {
+    -webkit-text-stroke: black 1px;
+    color: orange;
+    font-size: 60px;
+    font-family: "Racing Sans One", sans-serif;
+    text-align: center;
+    border-radius: 20%;
+    background-color: #d3af8c;
+}dialog{
+    border-radius:15px;
+    border: 2px solid #b18c66 ;
+    font-size: 30px;
+    font-family: "Racing Sans One", sans-serif;
+    text-align: center;margin: 50px 50px 50px 50px;
+}

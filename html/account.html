@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Cold</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="men--ice__header">
+                <menu class="ice__header">
+                    <div class="btn--ice__header">
+                        <a href="../index.html"><button type="button">Главная</button></a>
+                        <a href="../html/shop.html"><button type="button">Новинки</button></a>
+                        <button type="button" onclick="window['some-modal'].showModal()"
+                            aria-controls="some-modal">Своё мороженое</button>
+                    </div>
+                    <div class="logo--ice__header">
+                        <a href="../index.html"><h1>Sweet <img src="../img/waffle.png" width="75px" height="75px"> Cold</h1></a>
+                    </div>
+                    <div class="btn--ice__header">
+                       <button type="button" onclick="window['some-modal'].showModal()"
+                            aria-controls="some-modal">Доставка</button>
+                        <button type="button" onclick="window['some-modal'].showModal()"
+                            aria-controls="some-modal">Поддержка</button>
+                        <a href="../html/account.html"><button type="button">Войти</button></a>
+                    </div>
+                </menu>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="login--header">
+            <Fieldset>
+            <legend>Регистрация</legend>
+                <div class="login">
+                    <form action="nickname">
+                        <label for="nickname">Никнейм</label><br>
+                        <input type="text" id="nickname" placeholder="Ваш никнейм" required>
+                    </form>
+                    <form action="name">
+                        <label for="name">Имя</label><br>
+                        <input type="text" id="name" placeholder="Ваше имя" required>
+                    </form>
+                    <form action="secondname">
+                        <label for="secondname">Фамилия</label><br>
+                        <input type="text" id="secondname" placeholder="Ваше Фамилия" required>
+                    </form>
+                    <form action="patronymic">
+                        <label for="patronymic">Отчество</label><br>
+                        <input type="text" id="patronymic" placeholder="Ваше Отчество" required>
+                    </form>
+                    <form action="mail">
+                        <label for="mail">Почта</label><br>
+                        <input type="email" id="mail" placeholder="Ваша электронная почта">
+                    </form>
+                    <form action="name">
+                        <label for="name">Адрес</label><br>
+                        <input type="text" id="name" placeholder="Ваш адрес проживания">
+                    </form>
+                    <form action="name">
+                        <label for="password">Пароль</label><br>
+                        <input type="password" id="password" placeholder="Пароль, запомните его" required >
+                    </form>
+                    <form action="telefon">
+                        <label for="telefon">Телефон</label><br>
+                        <input type="tel" id="telefon" placeholder="Х-(ХХХ)-ХХХ-ХХ-ХХ"required>
+                    </form>
+                    <br>
+                    <button type="submit">Зарегестрироваться</button>
+            </Fieldset>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="login--header">
+            <Fieldset>
+            <legend>Войти</legend>
+                <div class="login">
+                    <form action="nickname">
+                        <label for="nickname">Никнейм</label><br>
+                        <input type="text" id="nickname" placeholder="Ваш никнейм" required>
+                    </form>
+                    <form action="name">
+                        <label for="password">Пароль</label><br>
+                        <input type="password" id="password" placeholder="Пароль, запомните его" required >
+                    </form><br>
+                    <button type="submit">Войти</button>
+            </Fieldset>
+        </div>
+    </div>
+    </div>
+    <dialog id="some-modal">Извините на данный момент сайт является Demo-версией и не все может работать<br>
+        Еще раз извиняемся за предоставленные нами неудобства.
+        <form method="some-modal">
+            <button>
+                Ясно-понятно
+            </button>
+        </form>
+    </dialog>
+    <footer>
+        Все права защищены Ⓒ
+    </footer>
+</body>
+
+</html>
